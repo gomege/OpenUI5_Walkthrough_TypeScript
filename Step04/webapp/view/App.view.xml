@@ -1,0 +1,52 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:tnt="sap.tnt"
+	height="100%">
+    <ScrollContainer vertical="true" height="100%">
+        <FlexBox direction="Column" alignItems="Start" class="sapUiMediumMargin">
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Confetti Blast" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il1" text="2" renderMode="Narrow" colorScheme="1"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Dance Floor Energy" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il2" text="5" renderMode="Narrow" colorScheme="2"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Sparkling Lights" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il3" text="12.5" renderMode="Narrow" colorScheme="3"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Laughter Echoes" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il4" text="2k" renderMode="Narrow" colorScheme="4"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Joyful Cheers" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il5" text="Party vibes" renderMode="Loose" colorScheme="5"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Colorful Balloons" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il6" text="Floating high" colorScheme="6" width="140px"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Music Beats" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il7" text="Feel the rhythm" colorScheme="7" width="250px"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Celebration Mode" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il8" text="With icon" colorScheme="8" icon="sap-icon://home-share"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Happy Memories" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il9" text="Captured moments" colorScheme="9"/>
+            </FlexBox>
+            <FlexBox direction="Row" alignItems="Start" class="sapUiTinyMarginBottom">
+                <Text text="Pure Bliss" class="sapUiTinyMarginEnd"/>
+                <tnt:InfoLabel id="il10" text="Display only joy" colorScheme="1" displayOnly="true"/>
+            </FlexBox>
+        </FlexBox>
+    </ScrollContainer>
+</mvc:View>
