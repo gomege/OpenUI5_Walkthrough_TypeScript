@@ -1,7 +1,7 @@
 {
     "name": "step06",
     "version": "1.0.0",
-    "description": "walkthrough fifth step",
+    "description": "walkthrough sixth step",
     "main": "index.js",
     "scripts": {
         "start": "ui5 serve -o index.html",
