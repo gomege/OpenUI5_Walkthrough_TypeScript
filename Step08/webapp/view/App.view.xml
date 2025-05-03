@@ -1,7 +1,8 @@
 <mvc:View
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:core="sap.ui.core">
    <Button
       text="{i18n>showHelloButtonText}"
       press=".onShowHello"/>
@@ -10,4 +11,36 @@
       description="{parts: [{path: 'i18n>helloMsg'}, {path: '/recipient/name'}], formatter: '.formatDescription'}"
       valueLiveUpdate="true"
       width="60%"/>
+   <HBox class="sapUiSmallMarginTop">
+      <Button text="Deutsch" press=".onChangeLanguage" class="sapUiTinyMarginEnd">
+         <customData>
+            <core:CustomData key="key" value="de"/>
+         </customData>
+      </Button>
+      <Button text="Français" press=".onChangeLanguage" class="sapUiTinyMarginEnd">
+         <customData>
+            <core:CustomData key="key" value="fr"/>
+         </customData>
+      </Button>
+      <Button text="Polski" press=".onChangeLanguage" class="sapUiTinyMarginEnd">
+         <customData>
+            <core:CustomData key="key" value="pl"/>
+         </customData>
+      </Button>
+      <Button text="Español" press=".onChangeLanguage" class="sapUiTinyMarginEnd">
+         <customData>
+            <core:CustomData key="key" value="es"/>
+         </customData>
+      </Button>
+      <Button text="Italiano" press=".onChangeLanguage" class="sapUiTinyMarginEnd">
+         <customData>
+            <core:CustomData key="key" value="it"/>
+         </customData>
+      </Button>
+      <Button text="English" press=".onChangeLanguage">
+         <customData>
+            <core:CustomData key="key" value="en"/>
+         </customData>
+      </Button>
+   </HBox>
 </mvc:View>
