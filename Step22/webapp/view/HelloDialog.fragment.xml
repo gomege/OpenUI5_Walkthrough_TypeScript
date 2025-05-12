@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core">
+   <Dialog
+      id="helloDialog"
+      title="Hello {/recipient/name}"
+      resizable="true"
+      contentHeight="150px">
+      <content>
+         <VBox alignItems="Center" justifyContent="Center">
+            <core:Icon 
+               src="sap-icon://globe"
+               size="8rem"
+               color="#007cc3" 
+               class="sapUiMediumMarginEnd"/>
+         </VBox>
+      </content>
+      <beginButton>
+         <Button
+            text="{i18n>dialogCloseButtonText}"
+            press=".onCloseDialog"/>
+      </beginButton>
+   </Dialog>
+</core:FragmentDefinition>
