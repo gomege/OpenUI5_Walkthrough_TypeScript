@@ -10,7 +10,7 @@ export default {
 		      },
 		      loader: {
 			        paths: {
-				          "ui5/walkthrough": "../"
+				        "ui5/walkthrough": "../"
 			       }
 		      }
         },
