@@ -31,11 +31,4 @@ export default class Component extends UIComponent {
         });
         this.setModel(i18nModel, "i18n");
     };
-
-    createContent(): Control | Promise<Control | null> | null {
-        return XMLView.create({
-            "viewName": "ui5.walkthrough.view.App",
-            "id": "app"
-        });
-    };
 };
